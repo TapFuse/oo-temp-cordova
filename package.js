@@ -24,7 +24,7 @@ Package.onUse(function(api) {
     api.use([
 
     ]);
-    // api.addFiles('lib/oo-temp-cordova.js', S);
+    api.addFiles('lib/oo-temp-cordova.js', C);
 });
 
 Cordova.depends({
