@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ox2:temp-cordova',
-  version: '0.0.4',
+  version: '0.1.0',
   // Brief, one-line summary of the package.
   summary: 'DO NOT USE',
   // URL to the Git repository containing the source code for this package.
@@ -33,6 +33,7 @@ Cordova.depends({
   "cordova-plugin-device": "1.1.1",
   "cordova-plugin-inappbrowser": "1.2.0",
   "cordova-plugin-splashscreen": "3.1.0",
+  "org.cloudsky.cordovaplugins.zbar": "1.3.1",
 });
 
 Package.onTest(function(api) {
