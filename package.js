@@ -34,7 +34,7 @@ Cordova.depends({
   "cordova-plugin-inappbrowser": "1.2.0",
   "cordova-plugin-splashscreen": "3.1.0",
   "cordova-plugin-camera": "2.1.0",
-  "org.cloudsky.cordovaplugins.zbar": "1.3.1",
+  "org.madmobile.cordovaplugins.zbarscanner": "1.0.1",
 });
 
 Package.onTest(function(api) {
