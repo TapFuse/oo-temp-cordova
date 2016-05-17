@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ox2:temp-cordova',
-  version: '0.3.0',
+  version: '1.1.0',
   // Brief, one-line summary of the package.
   summary: 'DO NOT USE',
   // URL to the Git repository containing the source code for this package.
@@ -28,12 +28,12 @@ Package.onUse(function(api) {
 });
 
 Cordova.depends({
-  "cordova-plugin-crosswalk-webview": "1.5.0",
+  "cordova-plugin-crosswalk-webview": "1.7.0",
   "phonegap-plugin-push": "1.5.3",
-  "cordova-plugin-device": "1.1.1",
-  "cordova-plugin-inappbrowser": "1.2.0",
-  "cordova-plugin-splashscreen": "3.1.0",
-  "cordova-plugin-camera": "2.1.0",
+  "cordova-plugin-device": "1.1.2",
+  "cordova-plugin-inappbrowser": "1.4.0",
+  "cordova-plugin-splashscreen": "3.2.2",
+  "cordova-plugin-camera": "2.2.0",
   "org.madmobile.cordovaplugins.zbarscanner": "1.0.1",
 });
 
