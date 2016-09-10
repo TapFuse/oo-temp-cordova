@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ox2:temp-cordova',
-  version: '3.0.0',
+  version: '3.1.0',
   // Brief, one-line summary of the package.
   summary: 'DO NOT USE',
   // URL to the Git repository containing the source code for this package.
@@ -32,6 +32,7 @@ Cordova.depends({
   "phonegap-plugin-push": "1.5.3",
   "cordova-plugin-device": "1.1.2",
   "cordova-plugin-inappbrowser": "1.4.0",
+  "cordova-plugin-statusbar": "2.1.3",
   "cordova-plugin-splashscreen": "3.2.2",
   "cordova-plugin-camera": "2.2.0",
   "org.madmobile.cordovaplugins.zbarscanner": "1.0.1",
