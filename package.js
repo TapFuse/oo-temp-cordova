@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ox2:temp-cordova',
-  version: '4.1.0',
+  version: '4.2.0',
   // Brief, one-line summary of the package.
   summary: 'DO NOT USE',
   // URL to the Git repository containing the source code for this package.
@@ -29,7 +29,7 @@ Package.onUse(function(api) {
 
 Cordova.depends({
   "cordova-plugin-crosswalk-webview": "2.3.0",
-  "phonegap-plugin-push": "1.5.3",
+  "phonegap-plugin-push": "1.9.0",
   "cordova-plugin-device": "1.1.4",
   "cordova-plugin-safariviewcontroller": "1.4.6",
   "cordova-plugin-inappbrowser": "1.6.1",
