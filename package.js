@@ -20,11 +20,6 @@ Package.onUse(function(api) {
     api.use([
       'ecmascript'
     ]);
-    // 3rd party
-    api.use([
-
-    ]);
-    api.addFiles('lib/oo-temp-cordova.js', C);
 });
 
 Cordova.depends({
@@ -37,9 +32,3 @@ Cordova.depends({
   "cordova-plugin-customurlscheme": "4.2.0",
 });
 
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
-  api.use('ox2:temp-cordova');
-  api.addFiles('tests/package-tests.js');
-});
