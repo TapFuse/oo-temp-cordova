@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ox2:temp-cordova',
-  version: '5.2.1',
+  version: '6.1.0',
   // Brief, one-line summary of the package.
   summary: 'DO NOT USE',
   // URL to the Git repository containing the source code for this package.
@@ -20,7 +20,9 @@ Package.onUse(function(api) {
     api.use([
       'ecmascript'
     ]);
+    api.addFiles('lib/oo-temp-cordova.js', C);
 });
+
 
 Cordova.depends({
   "phonegap-plugin-push": "1.9.0",

@@ -5,6 +5,6 @@ ecmascript-runtime@0.3.15
 meteor@1.6.1
 modules@0.7.9
 modules-runtime@0.7.9
-ox2:temp-cordova@5.2.1
+ox2:temp-cordova@6.1.0
 promise@0.8.8
 underscore@1.0.10
