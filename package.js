@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ox2:temp-cordova',
-  version: '6.2.0',
+  version: '7.0.0',
   // Brief, one-line summary of the package.
   summary: 'DO NOT USE',
   // URL to the Git repository containing the source code for this package.
@@ -26,11 +26,11 @@ Package.onUse(function(api) {
 
 Cordova.depends({
   "phonegap-plugin-push": "1.9.0",
-  "cordova-plugin-device": "1.1.4",
-  "cordova-plugin-inappbrowser": "1.6.1",
-  "cordova-plugin-statusbar": "2.2.1",
-  "cordova-plugin-splashscreen": "4.0.1",
-  "cordova-plugin-camera": "2.4.1",
-  "cordova-plugin-customurlscheme": "4.2.0",
+  "cordova-plugin-device": "2.0.1",
+  "cordova-plugin-inappbrowser": "2.0.2",
+  "cordova-plugin-statusbar": "2.4.1",
+  "cordova-plugin-splashscreen": "5.0.2",
+  "cordova-plugin-camera": "4.0.2",
+  "cordova-plugin-customurlscheme": "4.3.0",
 });
 
