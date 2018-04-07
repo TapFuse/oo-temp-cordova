@@ -1,6 +1,6 @@
 Package.describe({
   name: 'ox2:temp-cordova',
-  version: '7.0.0',
+  version: '8.0.0',
   // Brief, one-line summary of the package.
   summary: 'DO NOT USE',
   // URL to the Git repository containing the source code for this package.
@@ -15,7 +15,7 @@ var S = 'server';
 var CS = [C, S];
 
 Package.onUse(function(api) {
-    api.versionsFrom('1.4.1');
+    api.versionsFrom('1.6.1');
     // Core
     api.use([
       'ecmascript'
@@ -32,5 +32,6 @@ Cordova.depends({
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-camera": "4.0.2",
   "cordova-plugin-customurlscheme": "4.3.0",
+  "cordova-plugin-file": "6.0.1",
 });
 
