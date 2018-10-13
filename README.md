@@ -1,8 +1,4 @@
-# Package Name e.g. Meteor Twitter API
-[![Meteor Icon](http://icon.meteor.com/package/ox2:temp-cordova)](https://atmospherejs.com/ox2/temp-cordova)
-
-## Summary
-Brief, one-line summary of the package.
+# Package is no longer maintaned.
 
 ## Install
 ```
